@@ -1,0 +1,1108 @@
+{
+  "songs": [
+    {
+      "id": 1,
+      "title": "Summer of '69",
+      "artist": "Bryan Adams",
+      "chords": "D A, Bm A D G",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 2,
+      "title": "Memories",
+      "artist": "Maroon 5",
+      "chords": "G D Em Bm, C G C D",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 3,
+      "title": "Sugar",
+      "artist": "Maroon 5",
+      "chords": "Fsus Am7 Dm7 C",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 4,
+      "title": "I feel it coming",
+      "artist": "The Weeknd",
+      "chords": "Intro - Gm7 Cm7 AbMaj7 Eb \r\n(OR Capo on 3, Em, Am7, Fsus, C) \r\n\r\nPre chorus - Cm7, Gm7, AbMaj7 Eb \r\n(OR Capo on 3, Am, Em, Fsus, C) \r\n\r\nChorus - Gm7 Cm7 AbMaj7 Eb \r\n(OR Capo on 3, Em, Am7, Fsus, C)",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 5,
+      "title": "Blinding lights",
+      "artist": "The Weeknd",
+      "chords": "Am Em G Dadd9, add4",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 6,
+      "title": "Sooraj ki bahon mein",
+      "artist": "ZNMD",
+      "chords": "A, \r\nD A/C# D A, A A/C# E A, A/C# D A, G Dm A \r\n-- \r\nA C D \r\nA C D \r\nG F C F A A",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 7,
+      "title": "Wake me up",
+      "artist": "Avicii",
+      "chords": "Am F C/G C/G Em, Am F C/G G E",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 8,
+      "title": "Enna Sona",
+      "artist": "Unknown",
+      "chords": "Em Bm C D/G\r\nG Cadd9 G Em G Em B7",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 9,
+      "title": "Fireflies",
+      "artist": "Owl City",
+      "chords": "G Cadd9 F9 \r\nF Am G \r\nF C Em F \r\nF C F G Am \r\nF C D",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 10,
+      "title": "Zara zara",
+      "artist": "RHTDM",
+      "chords": "Intro music: Am | Em | Cmaj7 | Dm7 Em7 Fmaj7 | Em7 | Dm7 | Bdim7 or B7\r\nZara zara... : Am7 | Am7 | Am7 | Dm7, Em7\r\nHai meri kasam... : Am7 | Em | F | G, G#dim7 \r\nYe doori kehti hai... : Am7 | G | Fmaj7 | E7\r\nYu hi baras baras... : Am7 | Em7 | Dm7 | Cmaj7 | Cmaj7 | G#dim7 \r\nMeri khuli khuli... : Am7 | Em7 | Dm7 | Cma7 | C7",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 11,
+      "title": "Masakali",
+      "artist": "Delhi 6",
+      "chords": "Intro - Fmaj7, G6 \r\nMasakali masakali - Am7 D9 Am7 F9 Am \r\nZara pankh jhatak - Am7 Am C D7 (x4) \r\n\r\nGhar tera saloni- Am7 D9 Em7 Fmaj7 G6 \r\n\r\nUdiyo - Am7 D9 Am7 F9 Am \r\n\r\nAbb Than Le Muskan Le - Em7 Fmaj7 D7, Em Fma7 D/G",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 12,
+      "title": "Tareefon se",
+      "artist": "Dear Zindagi",
+      "chords": "TODO",
+      "extra": "https://www.youtube.com/watch?v=E_1_CgZW6fw&t=265s",
+      "youtubeId": "E_1_CgZW6fw"
+    },
+    {
+      "id": 13,
+      "title": "The Way I am",
+      "artist": "Charlie Puth",
+      "chords": "TODO",
+      "extra": "https://www.youtube.com/watch?v=9U1PrDY3QlQ",
+      "youtubeId": "9U1PrDY3QlQ"
+    },
+    {
+      "id": 14,
+      "title": "Wonderwall",
+      "artist": "Oasis",
+      "chords": "TODO",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 15,
+      "title": "Call me dil",
+      "artist": "Jhootha hi sahi",
+      "chords": "C G D \r\nD C G \r\nBm D G C D \r\nAm7 D",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 16,
+      "title": "Aye udi udi",
+      "artist": "Saathiya",
+      "chords": "Em7 G Am7 B7\r\n\r\nHai zindagi ye zindagi...: Am7 Cmaj7",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 17,
+      "title": "Levitating",
+      "artist": "Dua Lipa",
+      "chords": "TODO",
+      "extra": "Bm7",
+      "youtubeId": null
+    },
+    {
+      "id": 18,
+      "title": "Good Riddance",
+      "artist": "Greenday",
+      "chords": "G C D Em",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 19,
+      "title": "Agar main kahoon",
+      "artist": "Lakshya",
+      "chords": "Intro in Dminor variations \r\nG, A Bm A Bm A Bm Gm Dsus \r\nD A F#m Bm F# A \r\nDm F G Dsus \r\nA F# Bm",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 20,
+      "title": "Kholo Kholo",
+      "artist": "Taare Jameen Par",
+      "chords": "TODO",
+      "extra": "Em",
+      "youtubeId": null
+    },
+    {
+      "id": 21,
+      "title": "Payphone",
+      "artist": "Maroon 5",
+      "chords": "Cadd9 G Em D (Capo 4)",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 22,
+      "title": "We don't talk anymore",
+      "artist": "Charlie Puth",
+      "chords": "F G Am Em (Capo 4)",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 23,
+      "title": "Good time",
+      "artist": "Owl City",
+      "chords": "F C G Am",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 24,
+      "title": "Kabhi kabhi Aditi",
+      "artist": "Jaane tu ya jaane na",
+      "chords": "Intro riff - G#m9 to G#m, C#m9 to C#m \r\nBehnese roke... - E F# D#m7 G#m \r\nArpeggio - B F# Bmaj7 \r\nSoch zara... - B F# Bmaj7 \r\nRote hai... - E F# Bmaj7 \r\nGana to ata nahi... - G#m7 D#m7 C#m7 G# \r\nKe Aditi.... - C#m7 B6sus9 Bbmb6 A D7#9",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 25,
+      "title": "Sinbad the Sailor",
+      "artist": "Rock On",
+      "chords": "D Am G C",
+      "extra": "Intro - TODO \r\nSection 2 - D Am G C",
+      "youtubeId": null
+    },
+    {
+      "id": 26,
+      "title": "Picchle saat dino mein",
+      "artist": "Rock On",
+      "chords": "Intro - Gsus2 Em \r\nBm(open) Cm (open) G A",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 27,
+      "title": "Khwabon ke parinde",
+      "artist": "ZNMD",
+      "chords": "TODO",
+      "extra": "Intro - Amaj7 Bmin11 \r\nSection 1 - Dmaj7add9 Bmin11 Amaj7 Bmin11",
+      "youtubeId": null
+    },
+    {
+      "id": 28,
+      "title": "Ambarsariya",
+      "artist": "Unknown",
+      "chords": "Intro: Em D Am Bm, \r\nKabhi parakhta...: Gmaj7 Dmaj7 B7, second time: Gmaj7 F#m7 B7\r\nAmbarsariya: Em D Am B7\r\nAmbarsariya (played before bridge 1): Em Gmaj7 Dmaj7 B7 (x2)\r\nBridge 1: Em Gmaj7 Dmaj7 B7 (x2) \r\nVerse 1: Gmaj7 Dmaj7 (x4), B7sus4 B7\r\nBridge 2: Em Am D Gmaj7 Cmaj7 F#m Am B7\r\nVerse 2: Similar to verse 1",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 29,
+      "title": "Dua",
+      "artist": "Shanghai",
+      "chords": "TODO",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 30,
+      "title": "Havana",
+      "artist": "Camila Cabello",
+      "chords": "Em Cmaj7 B7",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 31,
+      "title": "Never be alone",
+      "artist": "Shawn Mendes",
+      "chords": "TODO",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 32,
+      "title": "Ae Zindagi",
+      "artist": "Dear Zindagi",
+      "chords": "Dm F\r\nDmaj7 Cm7 Bbm7 C\r\nA Dm \r\nA Dm F\r\nAm Dm6 E7\r\nE7 A D",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 33,
+      "title": "Sham",
+      "artist": "Aisha",
+      "chords": "E Emaj7 (0 2 1 1 0) Asus2 F#minor (open voicing) B (open voicing) \r\nChord at the end- Am9",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 34,
+      "title": "Tu hi re",
+      "artist": "Bombay",
+      "chords": "Tu hi re...: G Am D, G Am D \r\nJaan re...: G D, C G D \r\nChaahat...: D7 G C D, Am7 G C D \r\nIn saason...: Gm D (4x) \r\nIn unche...: C7 Gm A \r\nMaut aur zindagi...: D A",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 35,
+      "title": "Que sera sera",
+      "artist": "Pukaar",
+      "chords": "TODO",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 36,
+      "title": "Urvashi Urvashi",
+      "artist": "Humse hai muqabla",
+      "chords": "TODO",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 37,
+      "title": "Here I am",
+      "artist": "Bryan Adams",
+      "chords": "TODO",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 38,
+      "title": "Teri deewani",
+      "artist": "Kailash Kher",
+      "chords": "Preet ki...: Em D\r\nTere naam se...: D C Em\r\nTune kya kar dala: Em D C Bm Am G D\r\nTeri deewani: D C Em\r\nIshq junoon...: Em D\r\nHaste haste...: C D C Em",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 39,
+      "title": "Hotel California",
+      "artist": "Unknown",
+      "chords": "Capo 7 \r\nEm B7 Dsus2 A7sus2 C G Am7 B7",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 40,
+      "title": "Atrangi yaari",
+      "artist": "Wazir",
+      "chords": "TODO",
+      "extra": "G",
+      "youtubeId": null
+    },
+    {
+      "id": 41,
+      "title": "Shape of you",
+      "artist": "Ed Sheeran",
+      "chords": "Capo 4 \r\nGeneral chord progression: Am Dm F G",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 42,
+      "title": "In the end",
+      "artist": "Linkin Park",
+      "chords": "Combination of Em D/G C",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 43,
+      "title": "Closer",
+      "artist": "Chainsmokers",
+      "chords": "Capo 1 \r\nIntro: Cadd9 D Em7 D \r\nVerse, pre chorus: Cadd9 D Em7 D",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 44,
+      "title": "Dil chahta hai",
+      "artist": "Dil Chahta Hai",
+      "chords": "Intro: Play 4 notes (dil chahta hai) A (power), Am (bottom 3 strings), \r\nPlay 4 notes (dil chahta hai) G D, 4 notes \r\nDin din... : G D Am7, G D Am \r\nMasti me rahe... : B power, C power, A power, G Cadd9 A \r\nJagmagate hai... : Am7 G D \r\nChorus: Fmaj7 G D \r\nKaisa ajab ye safar hai... : Am7 G, Fmaj7 G \r\nJo waqt... : Fmaj7 G",
+      "extra": "Scale: Am",
+      "youtubeId": null
+    },
+    {
+      "id": 45,
+      "title": "Roobaroo",
+      "artist": "Rang De Basanti",
+      "chords": "TODO",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 46,
+      "title": "Jashn e bahara",
+      "artist": "Jodha Akbar",
+      "chords": "TODO",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 47,
+      "title": "Paradise",
+      "artist": "Coldplay",
+      "chords": "Intro music: Em A/C# Bm D\r\nSong: Em G D A (or A/C#)",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 48,
+      "title": "Chupke se",
+      "artist": "Saathiya",
+      "chords": "Chorus: Am7 Em7 Dm7 Am, Dm7 Em7 Am7, E Am Dm E, Dm7 Em7 Am \r\nChupke se...: Am7 Dm7 Em7 Am7 \r\nJale katara katara...: G Fmaj7 Am (x2) \r\nRaat bhi na hile...: G Dm7 D/G Dm7 E7 \r\n\r\nFarvari ki sardiyo...: Asus2 \r\nHaath ki aad se...: D7/F# (2X021X) \r\nDin bhi na doobe...: Am7 Dm7 Em7 Dm7, Am7 Dm7 F E7",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 49,
+      "title": "Dil to bachcha hai ji",
+      "artist": "Ishqiya",
+      "chords": "TODO",
+      "extra": "Em",
+      "youtubeId": null
+    },
+    {
+      "id": 50,
+      "title": "Zindagi kuch to bata",
+      "artist": "Bajrangi Bhaijan",
+      "chords": "Intro music: Cmaj7 F#m7b5 G Cmaj7 D F#dim E \r\nIk din...: Emaj7 Amaj7 Emaj7 Amaj7 \r\nPhir tu...: C D Em C \r\nRakhna mere...: Am B7 E Emaj7 \r\nKuch to bata...: Asus2, E Emaj7, B, E \r\nApna pata...: Am, B7, E, Emaj7",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 51,
+      "title": "Kya karoon?",
+      "artist": "Wake Up Sid",
+      "chords": "Kya karoon...: C Em7 G \r\nKya karoon...: Am7 F G \r\nChorus: Am Em Fmaj7 C \r\nYe din ye raatein...: G F \r\nMehke mehke, behke behke...: Fmaj7 Cmaj7 \r\nYe jo pal hai ye na beete...: Fmaj7 Bbmaj7",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 52,
+      "title": "Meethi boliyan",
+      "artist": "Kai Po Che",
+      "chords": "Kuchh lamhe...: Gmaj7 Cmaj7 \r\nMeethi boliyan...: Gmaj7 Cmaj7 \r\nGirte sambhalte...: Gmaj7 Am7 \r\nHaa magar...: Em7 Bm11 \r\nArmaanon ki patang....: D C \r\nHai zindagi...: C D/G (3x), G D/F# \r\nSapno ke...: G Em7 Cadd9 Bm11 \r\nUjla sawera...: Am7 Bm11 C D/G",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 53,
+      "title": "Aaj ki raat",
+      "artist": "Don",
+      "chords": "TODO",
+      "extra": "Bm (Open sound chords from E maj scale)",
+      "youtubeId": null
+    },
+    {
+      "id": 54,
+      "title": "Iktara",
+      "artist": "Wake Up Sid",
+      "chords": "TODO",
+      "extra": "https://www.youtube.com/watch?v=nhikTD6EKqA&t=205s",
+      "youtubeId": "nhikTD6EKqA"
+    },
+    {
+      "id": 55,
+      "title": "Kehna hi kya",
+      "artist": "Bombay",
+      "chords": "Kehna hi kya...: Am Dm E \r\nArmaan...: Dm Am Dm E \r\nAb kya kare...: Cmaj7 Dm7 Em7 Bdim7 \r\nIn hothon ne...: E Am Am E Am \r\nMehfil me...: C Gm (4x) \r\nAaj mili...: Am Dm Em Am Bdim7 E",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 56,
+      "title": "Clocks",
+      "artist": "Coldplay",
+      "chords": "Capo 1 \r\nD Am Am Em \r\nC F",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 57,
+      "title": "Nothing",
+      "artist": "Bruno Major",
+      "chords": "TODO",
+      "extra": "C G/B Am7 C7 \r\nF C/E D7 G7 \r\nTODO",
+      "youtubeId": null
+    },
+    {
+      "id": 58,
+      "title": "Main aisa kyon hu",
+      "artist": "Lakshya",
+      "chords": "Intro: E7#9, Eb7 slide to E7, Eb7, D7, E7 (Open) \r\nMain aisa kyon hoon...: E7 A7 \r\nMain jaisa hoon main waisa kyon hoon...: A7 B7 E7 \r\nKarna hai...: Em7 C#m7b5 Cmaj7 A \r\nHoga jane mera ab kya...: E7 \r\nO aye ee aye...: E D5 Asus4 E, E D5 Asus4 \r\nHook music...: Em7 C#m7b5 C B7 Em \r\nAb mujhko...: E7 \r\nLagta hai...: E7 D5 \r\nJaane ab mera...: Keep playing E7",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 59,
+      "title": "Mon Soleil",
+      "artist": "Emily From Paris",
+      "chords": "Capo 1 \r\nE7 Am D7 G",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 60,
+      "title": "Wildest Dreams",
+      "artist": "Taylor Swift",
+      "chords": "Verse: C Em D \r\nChorus: G D Am C",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 61,
+      "title": "Light Switch",
+      "artist": "Charlie Puth",
+      "chords": "Played in open E chord voicing (similar to Luka Chhupi) \r\nC# E F# B",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 62,
+      "title": "Saathiya",
+      "artist": "Saathiya",
+      "chords": "Saathiya...: Em A7 \r\nHook music: Em Asus4 \r\nHasti rahe...: Em7 Asus4 \r\nSoni si hasi teri...: Em7 D/G Em7 \r\nPeeli dhoop...: Em7 Asus4",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 63,
+      "title": "Willow",
+      "artist": "Taylor Swift",
+      "chords": "Intro: Em D Em, Em D C \r\nChorus: G D Am Em \r\nBridge: Bm Em Am G",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 64,
+      "title": "Happy",
+      "artist": "Pharrell Williams",
+      "chords": "Capo 1 \r\nIt might seem crazy...: E7 A B A7 \r\nChorus: Cmaj7 Bm7 Bsus4 E7",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 65,
+      "title": "Complicated",
+      "artist": "Avril Lavigne",
+      "chords": "Dm Bsus F C\r\nF Dm Bsus2 C\r\nChorus 2: Dm Bsus2 F Csus2 | Gm B",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 66,
+      "title": "Kabira",
+      "artist": "Yeh Jawaani hai Deewani",
+      "chords": "Kaisi teri khudgarzi...: Gmaj7 Dmaj9 and Dsus2, Gmaj7/B Dmaj9 and Dsus2\r\nBan liya apna...: Em7 G5 Bm7 G5 A\r\nKabira maan ja...: Dsus2 Gmaj7\r\nAa ja...: Em7 Asus4\r\nTooti chaar...: Gmaj7 D \r\nDoodhon ki...: Gmaj7 D Gmaj7/B",
+      "extra": "https://www.youtube.com/watch?v=Tzkw2U6ZpwA&t=425s",
+      "youtubeId": "Tzkw2U6ZpwA"
+    },
+    {
+      "id": 67,
+      "title": "Mere dil ka tumse hai kehna",
+      "artist": "Armaan",
+      "chords": "C7 Fm F",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 68,
+      "title": "Main kya karoon",
+      "artist": "Barfi",
+      "chords": "Dil ye mera...: Cmaj7 Cmaj9\r\nPehle kabhi aisa hota tha nahi... : Cmaj7 C9\r\nTu hi bata...: Fmaj7 Fm Cmaj7\r\n2nd Time\r\nMeri bhi sunta nahi: Am7 Emj7b9\r\nTu hi bata...: Dm7 G G7\r\nUff ab main...: Cmaj7 G Fmaj7 G\r\nIs dil ka...: Bdim Am7 G Fmaj7 G\r\nKarta avargi...: Cmaj7 G Fmaj7 Fm (x2)\r\nUlati ye baat hai...: Em Fmaj7 Bm7b5 (or Bdim) G",
+      "extra": "Dil ye mera bas me nahi...: C, Cmaj7\r\nPehle kabhi aisa hota tha...: C Am7 Fmaj7\r\nTu hi bata is dil ka main...: Fmaj7 Fm\r\nTODO\r\n\r\nhttps://www.youtube.com/watch?v=FBXcNRaDhSg \r\nhttps://www.youtube.com/watch?v=edJ11LR2xVU&t=33s",
+      "youtubeId": "FBXcNRaDhSg"
+    },
+    {
+      "id": 69,
+      "title": "Tu bole",
+      "artist": "Jaane tu ya jaane na",
+      "chords": "C G Am F",
+      "extra": "https://www.youtube.com/watch?v=MoYtl2XWHc8&t=532s",
+      "youtubeId": "MoYtl2XWHc8"
+    },
+    {
+      "id": 70,
+      "title": "Nazrein milana",
+      "artist": "Jaane tu ya jaane na",
+      "chords": "Intro riff: Amaj7 Bm7\r\nDil kabhi...: Amaj7 Bm7\r\nDil ki yahi...:C#m7 F#m Abm Asus E\r\nDil ki yahi (2nd)...: E Amaj7 E D\r\nNazrein milana...: E Bm7\r\nAakhon me...: E Bm7 Asus F#m E\r\nHothon se...: E Bm7 Asus F#m E",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 71,
+      "title": "More than words",
+      "artist": "Unknown",
+      "chords": "G Cadd9 Am7 C D Em",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 72,
+      "title": "Senorita",
+      "artist": "ZNMD",
+      "chords": "quien eres tu...: A Bm\r\nno desvies la Mirada...: E7 A\r\nmujhko bahon me tum lelo...: E7 D A\r\nchahat ke do pal...: D A C#7 F#m (x2)\r\nsuno suno señorita kehte hai hnum kya..: E D Bm A\r\njo bhi pal beeta...: F# Bm B7 Em\r\nhar pal tumne hai...:G D E A",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 73,
+      "title": "Pichle saat dinon mein",
+      "artist": "Rock On",
+      "chords": "Intro: Gsus2 Em",
+      "extra": "Em",
+      "youtubeId": null
+    },
+    {
+      "id": 74,
+      "title": "Rock on",
+      "artist": "Rock On",
+      "chords": "Intro: A slide to A#\r\nRock on hai ye waqt ka ishara...: A G Bm7(open) F",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 75,
+      "title": "Nazrein milana",
+      "artist": "Jaane tu ya jaane na",
+      "chords": "Intro: Amaj7 Bm x3, E D",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 76,
+      "title": "Mast magan",
+      "artist": "Two States",
+      "chords": "G C D Em Am",
+      "extra": "G",
+      "youtubeId": null
+    },
+    {
+      "id": 77,
+      "title": "Inteha hogayi",
+      "artist": "Unknown",
+      "chords": "Inteha hogayi...: Em, Em7\r\nYe hame...: A A7\r\nFir wajah...: C7 B7\r\nBaat jo...: Em9 C D\r\nWoh hai meri...: Bm7 Bm Em or Em7\r\nBujh na jaye...: Em C D/G",
+      "extra": "Em",
+      "youtubeId": null
+    },
+    {
+      "id": 78,
+      "title": "Fitoor",
+      "artist": "Unknown",
+      "chords": "E C#m A B",
+      "extra": "https://youtu.be/J6CipbxxYrI",
+      "youtubeId": "J6CipbxxYrI"
+    },
+    {
+      "id": 79,
+      "title": "Wish you were here",
+      "artist": "Avril Lavigne",
+      "chords": "C C/B Am F\r\nDm Am C G",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 80,
+      "title": "Sweet Home Alabama",
+      "artist": "Unknown",
+      "chords": "D Cadd9 G G",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 81,
+      "title": "I'll be riding shotgun",
+      "artist": "Unknown",
+      "chords": "F Bb Dm C",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 82,
+      "title": "Tum ho to",
+      "artist": "Rock On",
+      "chords": "Tum ho toh, gata hai dil...: C Dm G\r\nTum ho toh hai, sapnon ke...: Gm F Bm Em F C\r\nJo tum ho toh, ye lagta hai...: G E7 Am F (x2), G\r\nYe zindagi...: C Em7 Em F C\r\nChorous...: Gm Bb C",
+      "extra": "C",
+      "youtubeId": null
+    },
+    {
+      "id": 83,
+      "title": "Paani da rang",
+      "artist": "Unknown",
+      "chords": "Em D C Am",
+      "extra": "Em",
+      "youtubeId": null
+    },
+    {
+      "id": 84,
+      "title": "Ye tumhari meri baatein",
+      "artist": "Unknown",
+      "chords": "D G Bm A",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 85,
+      "title": "Na tum jano na hum",
+      "artist": "Kaho na pyaar hai",
+      "chords": "A C#m D E Bm",
+      "extra": "A",
+      "youtubeId": null
+    },
+    {
+      "id": 86,
+      "title": "Kalank",
+      "artist": "Unknown",
+      "chords": "C F Am G Em",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 87,
+      "title": "Faster Car",
+      "artist": "Loving Caliber",
+      "chords": "A B C#m\r\nA B C#m E, F#m\r\nC#m E B A\r\nC#m E B A F#m A B",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 88,
+      "title": "Baadal me paon hai",
+      "artist": "Chak De India",
+      "chords": "E A B C#m",
+      "extra": "E",
+      "youtubeId": null
+    },
+    {
+      "id": 89,
+      "title": "Abhi mujhme kahin",
+      "artist": "Agneepath",
+      "chords": "Abhi mujhme kahin...: D D\r\nBaki thodisi..: G Bm F#m (or D) \r\nKucch aisi...: Bm A \r\nYe lamha kahan tha...: G A D \r\nAb hai saamne...:Bm F#m \r\nMar jaau ya...: G A D \r\nDhoop me jalte hue...: Dmaj7 Am7 D \r\nChhaya ped ki mil gayi...: Bm F#7 D \r\nKucch aisa hi...: E D",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 90,
+      "title": "Khuda jane kya",
+      "artist": "Bachna Ae Haseeno",
+      "chords": "Em C D G",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 91,
+      "title": "Rihaa",
+      "artist": "Arijit Singh",
+      "chords": "Dm7 Fmaj7 Bbmaj7 Bbsus2 Csus2\r\nPossible chords: Dm7 Fmaj7 Bbmaj7 Bbsus2 Csus2",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 92,
+      "title": "Pehli baar",
+      "artist": "Dil Dhadakne Do",
+      "chords": "Pehli baar...: D \r\nLaga ke tumse...: D F D\r\nDil mera...: D Am Cadd9 or C G\r\nLeheron me jaise..: F#m D E A\r\nHum paas aye...: G A (Play these as D shape)",
+      "extra": "https://www.youtube.com/watch?v=LvhoDtzzRoE",
+      "youtubeId": "LvhoDtzzRoE"
+    },
+    {
+      "id": 93,
+      "title": "Socha hai",
+      "artist": "Rock on",
+      "chords": "D G Bm A\r\nSannata sunai nahi deta...: Cadd9 Em\r\nSocha hai kya kabhi...: D (or D power) E (or E power) C G D C",
+      "extra": "D",
+      "youtubeId": null
+    },
+    {
+      "id": 94,
+      "title": "Written in the Sand",
+      "artist": "Old Dominion",
+      "chords": "Capo 4\r\nA Bm7 G (and Gmaj7 in the end)",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 95,
+      "title": "Kasoor",
+      "artist": "Prateek Kuhad",
+      "chords": "E C#m A B",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 96,
+      "title": "Rubaroo",
+      "artist": "Unknown",
+      "chords": "A D",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 97,
+      "title": "In dino",
+      "artist": "Unknown",
+      "chords": "G D Em C",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 98,
+      "title": "Baatein kuchh ankahee",
+      "artist": "Unknown",
+      "chords": "C C Am F G",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 99,
+      "title": "Daru desi",
+      "artist": "Cocktail",
+      "chords": "Intro riff: Am9, Bmin7b5\r\nLadkhadane lage...: C G Dm Am\r\nBewajah har jagah...: C G Ddim Bdim\r\nTu mujhe...: Fmaj7 G Am E7#9\r\nWaqt bhi sarfira...: C Dm G",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 100,
+      "title": "Hey there Delilah",
+      "artist": "Plain White T's",
+      "chords": "D",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 101,
+      "title": "Tera mera pyaar",
+      "artist": "Kumar Sanu",
+      "chords": "Dm G Am Em\r\nDm Em7 Fmaj7 Em",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 102,
+      "title": "Aaoge jab tum",
+      "artist": "Jab We Met",
+      "chords": "G Bm7 Am7 G Em7\r\nBarsega sawan...: Dm7 Cmaj7 G Bm7 Am7 G Gmaj7\r\n\r\nNaina tere...:G Am7 Bm7 G\r\nSaason ki...: Am7 Bm7",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 103,
+      "title": "Suno aisha",
+      "artist": "Aisha",
+      "chords": "Tum ho kamaal...:Em G Bm Am7\r\nEm G Am7 A\r\nSuno aisha...: G D",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 104,
+      "title": "Chaleya",
+      "artist": "Jawan",
+      "chords": "Cmaj7, Fmaj7\r\nor Amin9, ?",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 105,
+      "title": "Maa",
+      "artist": "Taare Zameen Par",
+      "chords": "C\r\nC E7 Am Fm Ab C",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 106,
+      "title": "Phir Dekhiye",
+      "artist": "Rock On",
+      "chords": "G Am7 \r\nEm7 C, Em7 C D",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 107,
+      "title": "Kho gaye hum kahan",
+      "artist": "Unknown",
+      "chords": "Capo 6\r\nG C D/G\r\nG Am7 D/G\r\nG B7 Am D/G (x4)",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 108,
+      "title": "Kal ho na ho",
+      "artist": "Unknown",
+      "chords": "C Am9 ....",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 109,
+      "title": "Just the two of us",
+      "artist": "Bill Withers",
+      "chords": "C#maj7 C7 Fm7 Em7 Ebm7 Ab7",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 110,
+      "title": "Maeri",
+      "artist": "Palash Sen",
+      "chords": "E D...",
+      "extra": "Chords updated",
+      "youtubeId": null
+    },
+    {
+      "id": 111,
+      "title": "Heeriye",
+      "artist": "Unknown",
+      "chords": "Em or Em9 G Em D/G ...",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 112,
+      "title": "Loser",
+      "artist": "Charlie Puth",
+      "chords": "Abm C#m E, B F Abm\r\n(B can be played open B as in E maj open chords)",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 113,
+      "title": "Haarey",
+      "artist": "Meri Pyaari Bindu",
+      "chords": "Em Am G Am",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 114,
+      "title": "Jiyein kyon",
+      "artist": "Dum maaro dum",
+      "chords": "Na aye ho...: D F#m Bm F#m, Em G A A\r\nGaye tum gaye ho...: D G F#m (or A) D",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 115,
+      "title": "Bol na halke halke",
+      "artist": "Unknown",
+      "chords": "Em D AM Em\r\nBm (with open E)\r\nEm A\r\nG D Am9 Em",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 116,
+      "title": "Where's the party tonight",
+      "artist": "KANK",
+      "chords": "Am G F E",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 117,
+      "title": "Dil ko tumse pyaar hua",
+      "artist": "RHTDM",
+      "chords": "Am G F E,E7",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 118,
+      "title": "Tanhaa dil",
+      "artist": "Unknown",
+      "chords": "Aakhon me...:Am Em C D\r\nManzil nayi...:F D",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 119,
+      "title": "Tu mera hero",
+      "artist": "Mikka Singh",
+      "chords": "Capo 1\r\nG D Em C D",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 120,
+      "title": "Sach keh raha hai deewana",
+      "artist": "RHTDM",
+      "chords": "Am\r\nD F Am\r\nC, C/B, Bm7, D, G\r\nAm, G, F, C\r\nAm, G, F, E7 (or E)",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 121,
+      "title": "Kyon",
+      "artist": "Barfi",
+      "chords": "Capo 2\r\nAm7, Cmaj7, Dmin7, G\r\nA7",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 122,
+      "title": "Girls Like You",
+      "artist": "Maroon 5",
+      "chords": "C G Am F",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 123,
+      "title": "Theher ja",
+      "artist": "October",
+      "chords": "Saal badla...: G D Bm A (x2)\r\nZara zara sa...: G Bm D A (x2)\r\nTheher ja...: Em F#m G D",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 124,
+      "title": "One Love",
+      "artist": "Blue",
+      "chords": "Am G F",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 125,
+      "title": "Run to you",
+      "artist": "Brian Adams",
+      "chords": "Capo 2\r\nC D/G\r\nEm G D A",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 126,
+      "title": "You are my sonia",
+      "artist": "K3G",
+      "chords": "Dekha tumko jabse...: Cadd9 G, Cadd9 C\r\nYun nazarein na...: Gsus2 Csus4 G D\r\nKehdo na...: G G D\r\nTeri mohabbat me...: D7 F\r\nMilne me humko kitne...: G F, G F C\r\nAisi khushi me yaara...: G F",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 127,
+      "title": "Tu ashiqui hai",
+      "artist": "Jhankaar Beats",
+      "chords": "G Em C D",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 128,
+      "title": "APT",
+      "artist": "Rosé, Bruno Mars",
+      "chords": "Dm G C Am",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 129,
+      "title": "Moh moh ke dhaage",
+      "artist": "Unknown",
+      "chords": "D G A Bm",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 130,
+      "title": "Tera chehra",
+      "artist": "Adnan Sami",
+      "chords": "A G, \r\nA G (or Em), \r\nF G A\r\nVerse: A D, A D Bm A",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 131,
+      "title": "Guzaarish",
+      "artist": "Ghajni",
+      "chords": "Am Em\r\nDm C B7 Fmaj7\r\nDm C Fmaj7, Bb F Am",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 132,
+      "title": "Dooba dooba rehta hun",
+      "artist": "Unknown",
+      "chords": "Capo 2\r\nD G\r\nD G Em Bm G A",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 133,
+      "title": "Attention Acoustic",
+      "artist": "Charlie Puth",
+      "chords": "Ebm Db B Bb",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 134,
+      "title": "With you",
+      "artist": "A P Dhillon",
+      "chords": "D Bm F#m Gsus2 A",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 135,
+      "title": "Yaaron",
+      "artist": "KK",
+      "chords": "Intro riff, intro: Dsus2 Bmin7 Gsus2\r\nVerse: Bmin, F#min, G D\r\nEm, F#min, A",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 136,
+      "title": "I'm with you",
+      "artist": "Avril Lavigne",
+      "chords": "Intro: Asus2 Bsus2 Dsus4\r\nVerse: F#m Dsus2\r\nPre-chorus: E D\r\nChorus: Asus2 Bsus2 Dsus2, F#m E D\r\nBridge: E Bm, E D C#m E",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 137,
+      "title": "Kitni der tak",
+      "artist": "Unknown",
+      "chords": "G D Em C",
+      "extra": "",
+      "youtubeId": null
+    },
+    {
+      "id": 138,
+      "title": "Isn't she lovely",
+      "artist": "Stevie Wonder",
+      "chords": "C#m9 F#13 A/B Emaj9 G#7(#5)\r\nC#m9 F#13 A/B Emaj9 Amaj7 G#7(#5)\r\nC#m9 F#7 F#m-E-Amaj7-A/B E",
+      "extra": "",
+      "youtubeId": null
+    }
+  ]
+}
