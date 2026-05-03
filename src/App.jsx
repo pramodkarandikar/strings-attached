@@ -82,16 +82,6 @@ function App() {
             </span>
           </div>
         </div>
-        <div className="search-container">
-          <Search className="search-icon" size={20} />
-          <input
-            type="text"
-            className="search-input"
-            placeholder="Search songs or artists..."
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-          />
-        </div>
         <div className="header-actions">
           <button
             className="btn btn-accent"
@@ -130,13 +120,25 @@ function App() {
       </header>
 
       <main className="main-content">
-        <SongList
-          songs={filteredSongs}
-          selectedSong={selectedSong}
-          onSelectSong={setSelectedSong}
-          favorites={favorites}
-          onToggleFavorite={toggleFavorite}
-        />
+        <div className="song-list-wrapper">
+          <div className="search-container">
+            <Search className="search-icon" size={20} />
+            <input
+              type="text"
+              className="search-input"
+              placeholder="Search songs or artists..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+            />
+          </div>
+          <SongList
+            songs={filteredSongs}
+            selectedSong={selectedSong}
+            onSelectSong={setSelectedSong}
+            favorites={favorites}
+            onToggleFavorite={toggleFavorite}
+          />
+        </div>
         <SongDetail
           song={selectedSong}
           isFavorite={selectedSong ? favorites.includes(selectedSong.id) : false}
