@@ -43,7 +43,7 @@ export default function AddSongModal({ isOpen, onClose, onSave }) {
         <div style={styles.header}>
           <div>
             <h2 style={{ marginBottom: '0.2rem', color: 'var(--text-main)' }}>Add New Song</h2>
-            <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', margin: 0 }}>Create a custom song with chords and notes.</p>
+            <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', margin: 0 }}>Add new songs on the go!</p>
           </div>
           <button onClick={onClose} style={styles.closeButton}>
             <X size={24} />

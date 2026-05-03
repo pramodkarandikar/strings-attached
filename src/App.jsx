@@ -71,12 +71,14 @@ function App() {
   return (
     <div className="app-container">
       <header>
-        <div className="logo">
-          <span>
-            <span className="logo-lines">| &nbsp;</span>
-            <span style={{ color: 'var(--primary)' }}>strings</span>
-            <span style={{ color: 'var(--secondary)' }}>attached</span>
-          </span>
+        <div className="header-left">
+          <div className="logo">
+            <span>
+              <span className="logo-lines">| &nbsp;</span>
+              <span style={{ color: 'var(--primary)' }}>strings</span>
+              <span style={{ color: 'var(--secondary)' }}>attached</span>
+            </span>
+          </div>
         </div>
         <div className="search-container">
           <Search className="search-icon" size={20} />
@@ -88,7 +90,7 @@ function App() {
             onChange={(e) => setSearchQuery(e.target.value)}
           />
         </div>
-        <div style={{ display: 'flex', gap: '0.5rem' }}>
+        <div className="header-actions">
           <button
             className="btn btn-primary"
             onClick={() => setIsAddModalOpen(true)}
@@ -104,9 +106,9 @@ function App() {
             disabled={allSongs.length === 0}
             style={{
               opacity: allSongs.length === 0 ? 0.5 : 1,
-              backgroundColor: 'rgba(56, 189, 248, 0.15)',
-              color: 'var(--chord-color)',
-              border: '1px solid rgba(56, 189, 248, 0.3)'
+              backgroundColor: 'rgba(255, 230, 0, 0.15)',
+              color: 'var(--tertiary)',
+              border: '1px solid rgba(255, 230, 0, 0.3)'
             }}
           >
             <Download size={18} />
