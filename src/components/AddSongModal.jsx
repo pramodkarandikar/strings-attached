@@ -38,8 +38,8 @@ export default function AddSongModal({ isOpen, onClose, onSave }) {
   };
 
   return (
-    <div className="modal-overlay" style={styles.overlay}>
-      <div className="modal-content" style={styles.modal}>
+    <div className="modal-overlay">
+      <div className="modal-content">
         <div style={styles.header}>
           <div>
             <h2 style={{ marginBottom: '0.2rem', color: 'var(--text-main)' }}>Add New Song</h2>

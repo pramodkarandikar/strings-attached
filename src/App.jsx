@@ -4,6 +4,7 @@ import chordsData from './data/chords.json';
 import SongList from './components/SongList';
 import SongDetail from './components/SongDetail';
 import AddSongModal from './components/AddSongModal';
+import ChordBuilderModal from './components/ChordBuilderModal';
 import { exportCustomSongsToExcel } from './utils/exportExcel';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
   const [selectedSong, setSelectedSong] = useState(null);
   const [showFavoritesOnly, setShowFavoritesOnly] = useState(false);
   const [isAddModalOpen, setIsAddModalOpen] = useState(false);
+  const [isChordBuilderOpen, setIsChordBuilderOpen] = useState(false);
 
   const [customSongs, setCustomSongs] = useState(() => {
     try {
@@ -92,7 +94,22 @@ function App() {
         </div>
         <div className="header-actions">
           <button
-            className="btn btn-primary"
+            className="btn btn-accent"
+            onClick={() => setIsChordBuilderOpen(true)}
+            title="Build Chord"
+          >
+            <Guitar size={18} />
+            <span>Build Chord</span>
+          </button>
+          <button
+            className={`btn ${showFavoritesOnly ? 'btn-primary' : ''}`}
+            onClick={() => setShowFavoritesOnly(!showFavoritesOnly)}
+          >
+            <Star size={18} fill={showFavoritesOnly ? "currentColor" : "none"} />
+            {showFavoritesOnly ? "Starred" : "Show Starred"}
+          </button>
+          <button
+            className="btn"
             onClick={() => setIsAddModalOpen(true)}
             title="Add New Song"
           >
@@ -104,22 +121,10 @@ function App() {
             onClick={handleExportAllSongs}
             title="Export All Songs"
             disabled={allSongs.length === 0}
-            style={{
-              opacity: allSongs.length === 0 ? 0.5 : 1,
-              backgroundColor: 'rgba(255, 230, 0, 0.15)',
-              color: 'var(--tertiary)',
-              border: '1px solid rgba(255, 230, 0, 0.3)'
-            }}
+            style={{ opacity: allSongs.length === 0 ? 0.5 : 1 }}
           >
             <Download size={18} />
             <span>Export</span>
-          </button>
-          <button
-            className={`btn ${showFavoritesOnly ? 'btn-primary' : ''}`}
-            onClick={() => setShowFavoritesOnly(!showFavoritesOnly)}
-          >
-            <Star size={18} fill={showFavoritesOnly ? "currentColor" : "none"} />
-            {showFavoritesOnly ? "Starred" : "Show Starred"}
           </button>
         </div>
       </header>
@@ -143,6 +148,11 @@ function App() {
         isOpen={isAddModalOpen}
         onClose={() => setIsAddModalOpen(false)}
         onSave={handleSaveCustomSong}
+      />
+
+      <ChordBuilderModal
+        isOpen={isChordBuilderOpen}
+        onClose={() => setIsChordBuilderOpen(false)}
       />
     </div>
   );
