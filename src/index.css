@@ -1,23 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Elms+Sans&display=swap');
 
 :root {
-  --primary: #FF3366; /* Vibrant Pink/Red */
+  --primary: #FF3366;
+  /* Vibrant Pink/Red */
   --primary-hover: #E62E5C;
-  --secondary: #7C3AED; /* Deep Purple */
-  --accent: #F59E0B; /* Amber/Orange */
-  
+  --secondary: #7C3AED;
+  /* Deep Purple */
+  --accent: #F59E0B;
+  /* Amber/Orange */
+
   --bg-dark: #0F172A;
   --bg-card: rgba(30, 41, 59, 0.7);
   --bg-card-hover: rgba(30, 41, 59, 0.9);
-  
+
   --text-main: #F8FAFC;
   --text-muted: #94A3B8;
-  
-  --chord-color: #38BDF8; /* Bright Blue for chords */
-  
-  --font-sans: 'Quicksand', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-  --font-mono: 'Fira Code', 'Courier New', Courier, monospace;
+
+  --chord-color: #38BDF8;
+  /* Bright Blue for chords */
+
+  --font-sans: 'Elms Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: 'Elms Sans', 'Courier New', Courier, monospace;
 }
 
 * {
@@ -37,7 +43,8 @@ body {
 
 /* App Container */
 .app-container {
-  max-width: 95%; /* Make use of more horizontal space */
+  max-width: 95%;
+  /* Make use of more horizontal space */
   margin: 0 auto;
   padding: 2rem;
   display: flex;
@@ -55,9 +62,9 @@ header {
 }
 
 .logo {
-  font-family: 'Bitcount Grid Single', monospace;
+  font-family: 'Monoton', monospace;
   font-size: 2rem;
-  font-weight: 800;
+  /* font-weight: 800; */
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -118,12 +125,13 @@ header {
 /* Song List Sidebar */
 .song-list-container {
   flex: 1;
-  max-width: 500px; /* Wider sidebar */
+  max-width: 500px;
+  /* Wider sidebar */
   display: flex;
   flex-direction: column;
   background: var(--bg-card);
   border-radius: 1rem;
-  border: 1px solid rgba(255,255,255,0.05);
+  border: 1px solid rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(10px);
   overflow: hidden;
 }
@@ -137,11 +145,13 @@ header {
 .song-list-scroll::-webkit-scrollbar {
   width: 6px;
 }
+
 .song-list-scroll::-webkit-scrollbar-track {
-  background: rgba(0,0,0,0.1);
+  background: rgba(0, 0, 0, 0.1);
 }
+
 .song-list-scroll::-webkit-scrollbar-thumb {
-  background: rgba(255,255,255,0.2);
+  background: rgba(255, 255, 255, 0.2);
   border-radius: 3px;
 }
 
@@ -183,7 +193,7 @@ header {
   flex: 2;
   background: var(--bg-card);
   border-radius: 1rem;
-  border: 1px solid rgba(255,255,255,0.05);
+  border: 1px solid rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(10px);
   display: flex;
   flex-direction: column;
@@ -192,7 +202,7 @@ header {
 
 .detail-header {
   padding: 2rem;
-  border-bottom: 1px solid rgba(255,255,255,0.05);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -223,9 +233,11 @@ header {
 .detail-content::-webkit-scrollbar {
   width: 8px;
 }
+
 .detail-content::-webkit-scrollbar-track {
-  background: rgba(0,0,0,0.1);
+  background: rgba(0, 0, 0, 0.1);
 }
+
 .detail-content::-webkit-scrollbar-thumb {
   background: var(--primary);
   border-radius: 4px;
@@ -238,6 +250,7 @@ header {
   cursor: pointer;
   transition: color 0.2s;
 }
+
 .chord:hover {
   color: var(--primary);
 }
@@ -247,7 +260,7 @@ header {
   margin-top: 1rem;
   border-radius: 0.5rem;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
   aspect-ratio: 16 / 9;
 }
 
@@ -275,6 +288,7 @@ header {
   transition: all 0.2s ease;
   background: rgba(255, 255, 255, 0.1);
   color: white;
+  font-family: var(--font-sans);
 }
 
 .btn:hover {
@@ -303,20 +317,23 @@ header {
 
 .empty-state svg {
   margin-bottom: 1rem;
-  color: rgba(255,255,255,0.1);
+  color: rgba(255, 255, 255, 0.1);
 }
 
 @media (max-width: 768px) {
   .app-container {
     padding: 1rem;
   }
+
   .main-content {
     flex-direction: column;
   }
+
   .song-list-container {
     max-width: none;
     flex: 0 0 40vh;
   }
+
   header {
     flex-direction: column;
     gap: 1rem;

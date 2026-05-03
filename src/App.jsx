@@ -73,7 +73,7 @@ function App() {
       <header>
         <div className="logo">
           <span>
-            <span className="logo-lines">||</span>
+            <span className="logo-lines">| &nbsp;</span>
             <span style={{ color: 'var(--primary)' }}>strings</span>
             <span style={{ color: 'var(--secondary)' }}>attached</span>
           </span>

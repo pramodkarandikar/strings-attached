@@ -33,6 +33,7 @@ const parseChordName = (chordName) => {
   if (suffix === 'min') suffix = 'minor';
   if (suffix === 'dim') suffix = 'dim';
   if (suffix === 'aug') suffix = 'aug';
+  if (suffix === 'sus') suffix = 'sus4';
 
   return { key, suffix };
 };
