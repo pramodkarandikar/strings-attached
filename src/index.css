@@ -428,13 +428,13 @@ header {
 }
 
 @keyframes modalFadeIn {
-  from {
-    opacity: 0;
-  }
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
 
-  to {
-    opacity: 1;
-  }
+@keyframes modalFadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
 }
 
 @keyframes modalSlideUp {
@@ -442,11 +442,29 @@ header {
     opacity: 0;
     transform: translateY(20px) scale(0.95);
   }
-
   to {
     opacity: 1;
     transform: translateY(0) scale(1);
   }
+}
+
+@keyframes modalSlideDown {
+  from {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(20px) scale(0.95);
+  }
+}
+
+.modal-overlay.modal-closing {
+  animation: modalFadeOut 0.25s ease-in forwards;
+}
+
+.modal-overlay.modal-closing .modal-content {
+  animation: modalSlideDown 0.25s ease-in forwards;
 }
 
 .modal-header {

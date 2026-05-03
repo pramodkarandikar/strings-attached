@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect, useCallback } from 'react';
 import { X, LayoutTemplate } from 'lucide-react';
 import Chord from '@tombatossals/react-chords/lib/Chord';
 import guitarData from '@tombatossals/chords-db/lib/guitar.json';
@@ -7,8 +7,26 @@ import { getFormulaForSuffix, getNotesForChord, formatSuffixLabel } from '../uti
 export default function ChordBuilderModal({ isOpen, onClose }) {
   const [root, setRoot] = useState('C');
   const [suffix, setSuffix] = useState('major');
+  const [isClosing, setIsClosing] = useState(false);
 
   const roots = ['C', 'C#', 'D', 'Eb', 'E', 'F', 'F#', 'G', 'Ab', 'A', 'Bb', 'B'];
+
+  const handleClose = useCallback(() => {
+    setIsClosing(true);
+    setTimeout(() => {
+      setIsClosing(false);
+      onClose();
+    }, 250);
+  }, [onClose]);
+
+  useEffect(() => {
+    if (!isOpen) return;
+    const handleKeyDown = (e) => {
+      if (e.key === 'Escape') handleClose();
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [isOpen, handleClose]);
 
   // Get available suffixes for the selected root
   const availableSuffixes = useMemo(() => {
@@ -47,11 +65,11 @@ export default function ChordBuilderModal({ isOpen, onClose }) {
   if (!isOpen) return null;
 
   return (
-    <div className="modal-overlay" onClick={onClose}>
+    <div className={`modal-overlay ${isClosing ? 'modal-closing' : ''}`} onClick={handleClose}>
       <div className="modal-content chord-builder-modal" style={{ maxWidth: '1024px' }} onClick={e => e.stopPropagation()}>
         <div className="modal-header">
           <h2><LayoutTemplate size={24} style={{ marginRight: '10px', display: 'inline', verticalAlign: 'middle' }} /> Chord Builder</h2>
-          <button className="close-btn" onClick={onClose}>
+          <button className="close-btn" onClick={handleClose}>
             <X size={24} />
           </button>
         </div>

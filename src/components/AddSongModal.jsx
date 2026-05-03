@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { X } from 'lucide-react';
 import { sanitizeText, extractAndSanitizeYouTubeId } from '../utils/security';
 
@@ -8,6 +8,24 @@ export default function AddSongModal({ isOpen, onClose, onSave }) {
   const [chords, setChords] = useState('');
   const [notes, setNotes] = useState('');
   const [youtubeLink, setYoutubeLink] = useState('');
+  const [isClosing, setIsClosing] = useState(false);
+
+  const handleClose = useCallback(() => {
+    setIsClosing(true);
+    setTimeout(() => {
+      setIsClosing(false);
+      onClose();
+    }, 250);
+  }, [onClose]);
+
+  useEffect(() => {
+    if (!isOpen) return;
+    const handleKeyDown = (e) => {
+      if (e.key === 'Escape') handleClose();
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [isOpen, handleClose]);
 
   if (!isOpen) return null;
 
@@ -38,14 +56,14 @@ export default function AddSongModal({ isOpen, onClose, onSave }) {
   };
 
   return (
-    <div className="modal-overlay">
-      <div className="modal-content">
+    <div className={`modal-overlay ${isClosing ? 'modal-closing' : ''}`} onClick={handleClose}>
+      <div className="modal-content" onClick={e => e.stopPropagation()}>
         <div style={styles.header}>
           <div>
             <h2 style={{ marginBottom: '0.2rem', color: 'var(--text-main)' }}>Add New Song</h2>
             <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', margin: 0 }}>Add new songs on the go!</p>
           </div>
-          <button onClick={onClose} style={styles.closeButton}>
+          <button onClick={handleClose} style={styles.closeButton}>
             <X size={24} />
           </button>
         </div>
