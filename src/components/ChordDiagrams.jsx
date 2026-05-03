@@ -18,22 +18,22 @@ const parseChordName = (chordName) => {
   // Extract key and suffix. e.g. "C#m9" -> key: "C#", suffix: "m9"
   // "Fmaj7" -> key: "F", suffix: "maj7"
   // "B" -> key: "B", suffix: "major"
-  
+
   // Clean slash chords for now, just take root
   const root = chordName.split('/')[0];
-  
+
   const match = root.match(/^([CDEFGAB][b#]?)(.*)$/);
   if (!match) return null;
-  
+
   const key = normalizeKey(match[1]);
   let suffix = match[2] || 'major';
-  
+
   if (suffix === 'm') suffix = 'minor';
   if (suffix === 'maj') suffix = 'major';
   if (suffix === 'min') suffix = 'minor';
   if (suffix === 'dim') suffix = 'dim';
   if (suffix === 'aug') suffix = 'aug';
-  
+
   return { key, suffix };
 };
 
@@ -44,7 +44,7 @@ export default function ChordDiagrams({ text }) {
     const chordRegex = /\b([CDEFGAB][b#]?(?:maj|min|m|dim|aug|sus|add|M)?\d*(?:\/[CDEFGAB][b#]?)?)\b/g;
     const matches = text.match(chordRegex);
     if (!matches) return [];
-    
+
     // Deduplicate
     const unique = [...new Set(matches)];
     return unique;
@@ -54,14 +54,14 @@ export default function ChordDiagrams({ text }) {
     return uniqueChords.map(chordName => {
       const parsed = parseChordName(chordName);
       if (!parsed) return null;
-      
+
       const { key, suffix } = parsed;
       const keyData = guitarData.chords[key];
       if (!keyData) return null;
-      
+
       const suffixData = keyData.find(c => c.suffix === suffix);
       if (!suffixData || !suffixData.positions || suffixData.positions.length === 0) return null;
-      
+
       // Return the first position
       return {
         name: chordName,
@@ -94,23 +94,23 @@ export default function ChordDiagrams({ text }) {
 
   return (
     <div style={{ marginBottom: '2rem' }}>
-      <h3 style={{ marginBottom: '1rem', color: 'var(--text-muted)' }}>Chords in this song:</h3>
+
       <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1.5rem' }}>
         {chordDataList.map((chord, idx) => (
-          <div key={idx} style={{ 
-            background: 'var(--bg-dark)', 
-            padding: '1rem', 
+          <div key={idx} style={{
+            background: 'var(--bg-dark)',
+            padding: '1rem',
             borderRadius: '0.5rem',
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
             border: '1px solid rgba(255,255,255,0.1)'
           }}>
-            <div style={{ 
-              fontWeight: 'bold', 
-              fontSize: '1.2rem', 
+            <div style={{
+              fontWeight: 'bold',
+              fontSize: '1.2rem',
               marginBottom: '0.5rem',
-              color: 'var(--text-main)' 
+              color: 'var(--text-main)'
             }}>
               {chord.name}
             </div>

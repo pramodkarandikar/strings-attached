@@ -46,10 +46,10 @@ export default function SongDetail({ song, isFavorite, onToggleFavorite }) {
   // Format chords: try to wrap suspected chords in a span
   const formatText = (text) => {
     if (!text) return "";
-    
+
     return text.split('\n').map((line, idx) => {
       const chordRegex = /\b([CDEFGAB][b#]?(?:maj|min|m|dim|aug|sus|add|M)?\d*(?:\/[CDEFGAB][b#]?)?)\b/g;
-      
+
       const parts = line.split(chordRegex);
       return (
         <div key={idx}>
@@ -70,9 +70,9 @@ export default function SongDetail({ song, isFavorite, onToggleFavorite }) {
         <div>
           <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
             <h1 className="detail-title">{song.title}</h1>
-            <Star 
-              size={28} 
-              fill={isFavorite ? "#F59E0B" : "none"} 
+            <Star
+              size={28}
+              fill={isFavorite ? "#F59E0B" : "none"}
               color={isFavorite ? "#F59E0B" : "rgba(255,255,255,0.3)"}
               onClick={() => onToggleFavorite(song.id)}
               style={{ cursor: 'pointer', marginTop: '-0.5rem' }}
@@ -82,37 +82,29 @@ export default function SongDetail({ song, isFavorite, onToggleFavorite }) {
             <div className="detail-artist">{song.artist}</div>
           )}
         </div>
-        <div className="action-buttons">
-          <button 
-            className={`btn ${isScrolling ? '' : 'btn-primary'}`} 
-            onClick={toggleScroll}
-          >
-            {isScrolling ? <><Square size={18} /> Stop Scroll</> : <><Play size={18} /> Auto-Scroll</>}
-          </button>
-        </div>
       </div>
-      
+
       <div className="detail-content" ref={scrollRef}>
-        
+
         {/* Render Chord Diagrams automatically */}
         <ChordDiagrams text={song.chords} />
 
         {song.youtubeId && (
           <div className="youtube-container" style={{ marginBottom: '2rem' }}>
-            <iframe 
-              src={`https://www.youtube.com/embed/${song.youtubeId}`} 
-              title="YouTube video player" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            <iframe
+              src={`https://www.youtube.com/embed/${song.youtubeId}`}
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen>
             </iframe>
           </div>
         )}
-        
+
         {song.chords ? formatText(song.chords) : <div className="text-muted">No chords available.</div>}
-        
+
         {song.extra && !song.youtubeId && (
           <div style={{ marginTop: '2rem', padding: '1rem', background: 'rgba(255,255,255,0.05)', borderRadius: '0.5rem' }}>
-            <strong>Notes:</strong> <br/>
+            <strong>Notes:</strong> <br />
             {song.extra}
           </div>
         )}
