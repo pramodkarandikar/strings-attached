@@ -86,10 +86,10 @@ function App() {
           <button
             className="btn btn-accent"
             onClick={() => setIsChordBuilderOpen(true)}
-            title="Build Chord"
+            title="Chord Builder"
           >
             <Guitar size={18} />
-            <span>Build Chord</span>
+            <span>Chord Builder</span>
           </button>
           <button
             className={`btn ${showFavoritesOnly ? 'btn-primary' : ''}`}
