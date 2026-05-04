@@ -180,6 +180,13 @@ function App() {
             <Guitar size={18} />
             <span>Chord Builder</span>
           </button>
+          <button
+            className={`dropdown-item ${showFavoritesOnly ? 'dropdown-item-active' : ''}`}
+            onClick={() => { setShowFavoritesOnly(!showFavoritesOnly); setIsMenuOpen(false); }}
+          >
+            <Star size={16} fill={showFavoritesOnly ? "currentColor" : "none"} />
+            {showFavoritesOnly ? "Show All" : "Show Starred"}
+          </button>
 
           {/* Menu toggle */}
           <div className="menu-wrapper" ref={menuRef}>
@@ -193,13 +200,7 @@ function App() {
 
             {isMenuOpen && (
               <div className="dropdown-menu">
-                <button
-                  className={`dropdown-item ${showFavoritesOnly ? 'dropdown-item-active' : ''}`}
-                  onClick={() => { setShowFavoritesOnly(!showFavoritesOnly); setIsMenuOpen(false); }}
-                >
-                  <Star size={16} fill={showFavoritesOnly ? "currentColor" : "none"} />
-                  {showFavoritesOnly ? "Show All" : "Show Starred"}
-                </button>
+
                 <button
                   className="dropdown-item"
                   onClick={() => { setIsAddModalOpen(true); setIsMenuOpen(false); }}
