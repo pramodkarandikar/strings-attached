@@ -1,8 +1,8 @@
 import { useState, useEffect, useRef } from 'react';
-import { Play, Square, Guitar, Star } from 'lucide-react';
+import { Play, Square, Guitar, Star, Pencil, Trash2 } from 'lucide-react';
 import ChordDiagrams from './ChordDiagrams';
 
-export default function SongDetail({ song, isFavorite, onToggleFavorite }) {
+export default function SongDetail({ song, isFavorite, onToggleFavorite, onEdit, onDelete, isAuthenticated }) {
   const [isScrolling, setIsScrolling] = useState(false);
   const scrollRef = useRef(null);
   const scrollInterval = useRef(null);
@@ -43,6 +43,8 @@ export default function SongDetail({ song, isFavorite, onToggleFavorite }) {
     );
   }
 
+  const isCustomSong = typeof song.id === 'string' && song.id.startsWith('custom-');
+
   // Format chords: try to wrap suspected chords in a span
   const formatText = (text) => {
     if (!text) return "";
@@ -82,6 +84,26 @@ export default function SongDetail({ song, isFavorite, onToggleFavorite }) {
             <div className="detail-artist">{song.artist}</div>
           )}
         </div>
+
+        {/* Edit & Delete actions — only for custom songs */}
+        {isCustomSong && (
+          <div className="detail-actions">
+            <button
+              className="btn btn-icon"
+              onClick={() => onEdit(song)}
+              title="Edit song"
+            >
+              <Pencil size={18} />
+            </button>
+            <button
+              className="btn btn-icon btn-icon-danger"
+              onClick={() => onDelete(song)}
+              title="Delete song"
+            >
+              <Trash2 size={18} />
+            </button>
+          </div>
+        )}
       </div>
 
       <div className="detail-content" ref={scrollRef}>

@@ -75,6 +75,86 @@ header {
   gap: 0.5rem;
   margin-left: auto;
   flex-shrink: 0;
+  align-items: center;
+}
+
+/* ========== Dropdown Menu ========== */
+.menu-wrapper {
+  position: relative;
+}
+
+.btn-menu-toggle {
+  padding: 0.45rem 0.55rem;
+  border-radius: 0.5rem;
+  transition: all 0.2s ease;
+}
+
+.btn-menu-toggle.active {
+  background: rgba(255, 255, 255, 0.15);
+  color: var(--primary);
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  right: 0;
+  min-width: 220px;
+  background: rgba(15, 23, 42, 0.95);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0.75rem;
+  padding: 0.4rem;
+  z-index: 500;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5), 0 0 1px rgba(255, 255, 255, 0.1);
+  animation: dropdownSlideIn 0.2s ease-out;
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  width: 100%;
+  padding: 0.6rem 0.85rem;
+  border: none;
+  border-radius: 0.5rem;
+  background: none;
+  color: var(--text-main);
+  font-size: 0.9rem;
+  font-weight: 500;
+  font-family: var(--font-sans);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.dropdown-item:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.dropdown-item-active {
+  color: var(--secondary);
+}
+
+.dropdown-item-user {
+  color: var(--primary);
+}
+
+.dropdown-divider {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.08);
+  margin: 0.3rem 0.5rem;
+}
+
+@keyframes dropdownSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-6px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
 }
 
 .logo {
@@ -590,4 +670,160 @@ select.form-input {
 .chord-svg-container text {
   font-weight: 800 !important;
   font-family: var(--font-sans) !important;
+}
+
+/* ========== Delete Confirm Modal ========== */
+.delete-warning {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.85rem 1rem;
+  background: rgba(239, 68, 68, 0.12);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  border-radius: 0.5rem;
+  color: #FCA5A5;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.delete-confirm-input {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  background-color: #0F172A;
+  color: var(--text-main);
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.2s;
+}
+
+.delete-confirm-input:focus {
+  outline: none;
+  border-color: rgba(239, 68, 68, 0.6);
+  box-shadow: 0 0 10px rgba(239, 68, 68, 0.15);
+}
+
+.btn-danger {
+  background: #DC2626;
+  color: white;
+  font-weight: 700;
+  transition: all 0.2s ease;
+}
+
+.btn-danger:hover:not(:disabled) {
+  background: #EF4444;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 15px rgba(239, 68, 68, 0.3);
+}
+
+.btn-danger.btn-disabled,
+.btn-danger:disabled {
+  background: rgba(239, 68, 68, 0.2);
+  color: rgba(255, 255, 255, 0.3);
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+/* ========== Login Error ========== */
+.login-error {
+  padding: 0.75rem 1rem;
+  background: rgba(239, 68, 68, 0.12);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  border-radius: 0.5rem;
+  color: #FCA5A5;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* ========== User Badge Button ========== */
+.btn-user {
+  background: linear-gradient(135deg, rgba(0, 240, 255, 0.15), rgba(255, 0, 170, 0.15));
+  border: 1px solid rgba(0, 240, 255, 0.3);
+  color: var(--primary);
+}
+
+.btn-user:hover {
+  background: linear-gradient(135deg, rgba(0, 240, 255, 0.25), rgba(255, 0, 170, 0.25));
+  border-color: var(--primary);
+}
+
+/* ========== Detail Header Actions ========== */
+.detail-actions {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.btn-icon {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--text-muted);
+  transition: all 0.2s ease;
+}
+
+.btn-icon:hover {
+  background: rgba(255, 255, 255, 0.12);
+  color: var(--text-main);
+  transform: translateY(-1px);
+}
+
+.btn-icon-danger:hover {
+  background: rgba(239, 68, 68, 0.15);
+  color: #FCA5A5;
+}
+
+/* ========== Toast Notifications ========== */
+.toast {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  padding: 0.85rem 1.25rem;
+  border-radius: 0.75rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  font-family: var(--font-sans);
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  z-index: 2000;
+  animation: toastSlideIn 0.35s ease-out, toastFadeOut 0.4s ease-in 3s forwards;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(12px);
+}
+
+.toast-success {
+  background: rgba(16, 185, 129, 0.18);
+  border: 1px solid rgba(16, 185, 129, 0.4);
+  color: #6EE7B7;
+}
+
+.toast-icon {
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+@keyframes toastSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes toastFadeOut {
+  from {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(10px) scale(0.95);
+  }
 }
