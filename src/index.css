@@ -35,7 +35,7 @@
 
 body {
   font-family: var(--font-sans);
-  background: radial-gradient(circle at top right, #1E1B4B, #0F172A 40%, #020617);
+  background: radial-gradient(circle at top right, #2c2909, #0F172A 40%, #170212);
   color: var(--text-main);
   min-height: 100vh;
   -webkit-font-smoothing: antialiased;
@@ -151,6 +151,7 @@ header {
     opacity: 0;
     transform: translateY(-6px) scale(0.97);
   }
+
   to {
     opacity: 1;
     transform: translateY(0) scale(1);
@@ -811,6 +812,7 @@ select.form-input {
     opacity: 0;
     transform: translateY(20px) scale(0.95);
   }
+
   to {
     opacity: 1;
     transform: translateY(0) scale(1);
@@ -822,6 +824,7 @@ select.form-input {
     opacity: 1;
     transform: translateY(0) scale(1);
   }
+
   to {
     opacity: 0;
     transform: translateY(10px) scale(0.95);
