@@ -229,7 +229,7 @@ function App() {
                     onClick={() => { setPendingEditSong(null); setIsLoginModalOpen(true); setIsMenuOpen(false); }}
                   >
                     <LogIn size={16} />
-                    Login
+                    Login to Edit Songs
                   </button>
                 )}
               </div>
