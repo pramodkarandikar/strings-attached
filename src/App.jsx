@@ -180,13 +180,7 @@ function App() {
             <Guitar size={18} />
             <span>Chord Builder</span>
           </button>
-          <button
-            className={`dropdown-item ${showFavoritesOnly ? 'dropdown-item-active' : ''}`}
-            onClick={() => { setShowFavoritesOnly(!showFavoritesOnly); setIsMenuOpen(false); }}
-          >
-            <Star size={16} fill={showFavoritesOnly ? "currentColor" : "none"} />
-            {showFavoritesOnly ? "Show All" : "Show Starred"}
-          </button>
+
 
           {/* Menu toggle */}
           <div className="menu-wrapper" ref={menuRef}>
@@ -255,6 +249,13 @@ function App() {
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
             />
+            <button
+              className={`search-star-toggle ${showFavoritesOnly ? 'active' : ''}`}
+              onClick={() => setShowFavoritesOnly(!showFavoritesOnly)}
+              title={showFavoritesOnly ? "Show All" : "Show Starred"}
+            >
+              <Star size={18} fill={showFavoritesOnly ? "currentColor" : "none"} />
+            </button>
           </div>
           <SongList
             songs={filteredSongs}

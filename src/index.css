@@ -181,7 +181,7 @@ header {
 
 .search-input {
   width: 100%;
-  padding: 0.85rem 1rem 0.85rem 3rem;
+  padding: 0.85rem 3rem 0.85rem 3rem;
   border-radius: 1rem 1rem 0 0;
   border: 1px solid rgba(255, 255, 255, 0.05);
   border-bottom: none;
@@ -208,6 +208,34 @@ header {
   color: rgba(255, 255, 255, 0.5);
   z-index: 10;
   pointer-events: none;
+}
+
+.search-star-toggle {
+  position: absolute;
+  right: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.6rem;
+  transition: all 0.2s ease;
+  z-index: 10;
+}
+
+.search-star-toggle:hover {
+  color: var(--text-main);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.search-star-toggle.active {
+  color: var(--secondary);
+  filter: drop-shadow(0 0 5px rgba(255, 0, 170, 0.4));
 }
 
 /* Layout Grid */
